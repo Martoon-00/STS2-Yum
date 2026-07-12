@@ -1,4 +1,7 @@
 {
   "YUM-KILL.title": "Kill",
-  "YUM-KILL.description": "Deal {Damage:diff()} damage 9 times."
+  "YUM-KILL.description": "Deal {Damage:diff()} damage 9 times.",
+  
+  "YUM-THE_SQUAD.title": "The squad",
+  "YUM-THE_SQUAD.description": "Everyone forges 1 whenever anyone hits an enemy."
 }
