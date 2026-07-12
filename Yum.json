@@ -1,0 +1,14 @@
+﻿{
+  "id": "Yum",
+  "name": "Yum",
+  "author": "YourName",
+  "description": "Adds Kill, a rare Ironclad attack that hits 9 times for 99 damage each.",
+  "version": "v0.1.0",
+  "min_game_version": "0.107.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {"id": "BaseLib", "min_version": "3.3.5"}
+  ],
+  "affects_gameplay": true
+}
