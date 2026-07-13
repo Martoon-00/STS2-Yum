@@ -11,7 +11,7 @@ using Yum.YumCode.Powers;
 namespace Yum.YumCode.Cards;
 
 [Pool(typeof(RegentCardPool))]
-public sealed class TheSquad() : CustomCardModel(2, CardType.Power, CardRarity.Rare, TargetType.AllAllies)
+public sealed class TheSquad() : CustomCardModel(3, CardType.Power, CardRarity.Rare, TargetType.AllAllies)
 {
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
 

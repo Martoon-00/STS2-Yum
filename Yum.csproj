@@ -39,13 +39,9 @@
 
     <ItemGroup>
         <Compile Remove="Yum/**" />
-        <Compile Remove="materials/**" />
         <Compile Remove="shaders/**" />
-        <Compile Remove="images/**" />
         <EmbeddedResource Remove="Yum/**" />
-        <EmbeddedResource Remove="materials/**" />
         <EmbeddedResource Remove="shaders/**" />
-        <EmbeddedResource Remove="images/**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -54,10 +50,6 @@
         <None Include="Yum.json" />
         <None Include="project.godot"/>
         <None Include="Yum/**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Yum\images\card_portraits\big\" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths" >
@@ -111,7 +103,6 @@
     <Target Name="GodotPublish" AfterTargets="Publish" Condition="'$(GodotPath)' != '' and Exists('$(GodotPath)') and '$(IsInnerGodotExport)' != 'true'">
         <Message Text="Exporting Godot .pck to mods folder" Importance="high"/>
         <Exec Command="&quot;$(GodotPath)&quot; --headless --export-pack &quot;BasicExport&quot; &quot;$(ModsPath)$(MSBuildProjectName)/$(MSBuildProjectName).pck&quot;"
-              EnvironmentVariables="IsInnerGodotExport=true;MSBUILDDISABLENODEREUSE=1"
-              ContinueOnError="WarnAndContinue"/>
+              EnvironmentVariables="IsInnerGodotExport=true;MSBUILDDISABLENODEREUSE=1"/>
     </Target>
 </Project>

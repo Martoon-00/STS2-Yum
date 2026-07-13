@@ -20,12 +20,14 @@ public sealed class TheSquadPower : CustomPowerModel
 
     public override async Task AfterAttack(PlayerChoiceContext choiceContext, AttackCommand command)
     {
-        var amount = command.Results.Count();
+        var stacks = Amount;
+        var hits = command.Results.Count();
         IEnumerable<Player> players = CombatState.Players.Where((Player p) => p.Creature.IsAlive);
         foreach (Player player in players)
         {
-            await ForgeCmd.Forge(amount, player, this);
+            await ForgeCmd.Forge(hits * stacks, player, this);
         }
+        
     }
 
 }

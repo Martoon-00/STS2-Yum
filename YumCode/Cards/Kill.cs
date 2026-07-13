@@ -17,9 +17,9 @@ public sealed class Kill() : CustomCardModel(3, CardType.Attack, CardRarity.Rare
 {
     protected override bool ShouldGlowGoldInternal => true;
 
-    public override string PortraitPath => $"{MainFile.ResPath}/../images/card_portraits/kill.png";
+    public override string PortraitPath => $"{MainFile.ResPath}/images/card_portraits/kill.png";
 
-    public override int MaxUpgradeLevel => 3;
+    public override int MaxUpgradeLevel => 6;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [

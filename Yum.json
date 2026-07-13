@@ -2,7 +2,7 @@
   "id": "Yum",
   "name": "Yum",
   "author": "YourName",
-  "description": "Adds Kill, a rare Ironclad attack that hits 9 times for 99 damage each.",
+  "description": "Adds a bunch of funny cards.",
   "version": "v0.1.0",
   "min_game_version": "0.107.0",
   "has_pck": true,
