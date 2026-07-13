@@ -15,7 +15,7 @@ public sealed class TheSquad() : CustomCardModel(3, CardType.Power, CardRarity.R
 {
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
 
-    public override string PortraitPath => $"{MainFile.ResPath}/images/card_portraits/1.png";
+    public override string PortraitPath => $"{MainFile.ResPath}/images/card_portraits/the_squad.png";
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromForge();
 

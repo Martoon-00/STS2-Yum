@@ -1,5 +1,5 @@
 {
   "YUM-THE_SQUAD_POWER.title": "Squad force",
-  "YUM-THE_SQUAD_POWER.description": "Hitting an enemy forges 1 to all players.",
-  "YUM-THE_SQUAD_POWER.smartDescription": "Hitting an enemy forges {Amount} to all players."
+  "YUM-THE_SQUAD_POWER.description": "Hitting an enemy [gold]Forges[/gold] [blue]1[/blue] to all players.",
+  "YUM-THE_SQUAD_POWER.smartDescription": "Hitting an enemy [gold]Forges[/gold] [blue]{Amount}[/blue] to all players."
 }

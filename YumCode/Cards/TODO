@@ -1,5 +1,7 @@
 * Necrobinder: rare 2 cost - create a free copy of your own power to all players
 * Regent: rare 1 cost - whenever anyone hits an enemy, Forge 1 for everyone
-* Ironclad: Demon blood - create a token power card for everyone; every enemy hit with attack gives strength, but every attack costs 1 hp 
+* Ironclad: Demon blood - create a token power card for everyone; every enemy hit with an attack gives strength, but lose 4(3) hp every turn 
 * Necrobinder: uncommon 0 cost. when you play an ethereal card, apply 20 doom to random enemy. When an ethereal card exhausts, get stunned 
 * Silent: Hunt down, rare 3 cost - if an enemy has 10 (7) weakness, kill it (twice)
+* Necrobinder: Add Buff that keeps HP of an ally permanently at 1 and makes it invulnerable, lasts 5 turns. Innate, retains. 3 cost, removes 2 max energy. 
+  Health bar turns cyan. (See how Buffer is implemented)

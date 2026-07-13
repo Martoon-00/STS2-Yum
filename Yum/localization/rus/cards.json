@@ -3,5 +3,5 @@
   "YUM-KILL.description": "Наносит {Damage:diff()} урона {Burn:diff()} раз.",
   
   "YUM-THE_SQUAD.title": "Дружина",
-  "YUM-THE_SQUAD.description": "Все куют 1 когда кто-либо попадает по врагу."
+  "YUM-THE_SQUAD.description": "Все [gold]закаляют[/gold] [blue]1[/blue] при каждом попадании атакой по врагу."
 }

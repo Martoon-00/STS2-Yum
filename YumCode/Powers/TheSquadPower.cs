@@ -11,21 +11,27 @@ namespace Yum.YumCode.Powers;
 
 public sealed class TheSquadPower : CustomPowerModel
 {
+    public override string CustomPackedIconPath => $"{MainFile.ResPath}/images/powers/the_squad_power.png";
+    public override string CustomBigIconPath => $"{MainFile.ResPath}/images/powers/the_squad_power.png";
+
     public override PowerType Type => PowerType.Buff;
 
     public override PowerStackType StackType => PowerStackType.Counter;
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromForge();
 
-
     public override async Task AfterAttack(PlayerChoiceContext choiceContext, AttackCommand command)
     {
-        var stacks = Amount;
-        var hits = command.Results.Count();
+        if (command._sourceType != AttackCommand.SourceType.Card)
+        {
+            return;
+        }
+
+        var hits = command.Results.Aggregate(0, (acc, singleHitResult) => acc + singleHitResult.Count());
         IEnumerable<Player> players = CombatState.Players.Where((Player p) => p.Creature.IsAlive);
         foreach (Player player in players)
         {
-            await ForgeCmd.Forge(hits * stacks, player, this);
+            await ForgeCmd.Forge(hits * Amount, player, this);
         }
         
     }
