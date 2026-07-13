@@ -17,35 +17,51 @@ public sealed class Kill() : CustomCardModel(3, CardType.Attack, CardRarity.Rare
 {
     protected override bool ShouldGlowGoldInternal => true;
 
-    public override string PortraitPath => $"{MainFile.ResPath}/images/card_portraits/kill.png";
+    public override string PortraitPath => $"{MainFile.ResPath}/../images/card_portraits/kill.png";
+
+    public override int MaxUpgradeLevel => 3;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(99m, ValueProp.Move),
         new IntVar("Burn", 9),
         new BoolVar("WithDoom"),
+        new IntVar("SelfDamage", 30),
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
         var hits = DynamicVars["Burn"].IntValue;
+        var selfDamage = DynamicVars["SelfDamage"].IntValue;
         await CommonActions.CardAttack(this, cardPlay, hitCount: hits, vfx: "vfx/vfx_attack_slash")
             .Execute(choiceContext);
-        await CreatureCmd.Damage(choiceContext, Owner.Creature, 10m, ValueProp.SkipHurtAnim, this, null);
+        await CreatureCmd.Damage(choiceContext, Owner.Creature, selfDamage, ValueProp.SkipHurtAnim, this, null);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Damage.UpgradeValueBy(900m);
-        DynamicVars["Burn"].UpgradeValueBy(90m);
-        DynamicVars["WithDoom"].UpgradeValueBy(1m);
+        if (CurrentUpgradeLevel == 1)
+        {
+            DynamicVars.Damage.UpgradeValueBy(900m);
+            DynamicVars["Burn"].UpgradeValueBy(90m);
+        }
+        else if (CurrentUpgradeLevel == 2)
+        {
+            EnergyCost.UpgradeBy(-999);
+        }
+        else if (CurrentUpgradeLevel == 3)
+        {
+            DynamicVars["WithDoom"].UpgradeValueBy(1m);
+        }
+        DynamicVars["SelfDamage"].UpgradeValueBy(-5m);
     }
 
     public override async Task AfterDamageGiven(PlayerChoiceContext choiceContext, Creature? dealer, DamageResult result, ValueProp props, Creature target, CardModel? cardSource)
     {
-        if (DynamicVars["WithDoom"].IntValue != 0 && target.IsEnemy) {
-            await PowerCmd.Apply<DoomPower>(choiceContext, CombatState?.HittableEnemies, 999m, Owner.Creature, this);
+        if (DynamicVars["WithDoom"].IntValue != 0 && target.IsEnemy)
+        {
+            await PowerCmd.Apply<DoomPower>(choiceContext, target, 999m, Owner.Creature, this);
         }
     }
 
