@@ -3,5 +3,11 @@
   "YUM-KILL.description": "Deal {Damage:diff()} damage 9 times.",
   
   "YUM-THE_SQUAD.title": "The squad",
-  "YUM-THE_SQUAD.description": "Everyone [gold]Forges[/gold] [blue]1[/blue] whenever anyone hits an enemy."
+  "YUM-THE_SQUAD.description": "Everyone [gold]Forges[/gold] 1 whenever anyone hits an enemy.",
+
+  "YUM-DEMON_BLOOD.title": "Demon blood",
+  "YUM-DEMON_BLOOD.description": "Every player gains\n[gold]The call of blood[/gold].",
+
+  "YUM-THE_CALL_OF_BLOOD.title": "The call of blood",
+  "YUM-THE_CALL_OF_BLOOD.description": "On every hit to an enemy gain 1 [gold]Strength[/gold]. Lose {HpLoss:diff()} HP at the start of your turn."
 }

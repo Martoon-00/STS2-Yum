@@ -1,5 +1,13 @@
 {
   "YUM-THE_SQUAD_POWER.title": "Squad force",
-  "YUM-THE_SQUAD_POWER.description": "Hitting an enemy [gold]Forges[/gold] [blue]1[/blue] to all players.",
-  "YUM-THE_SQUAD_POWER.smartDescription": "Hitting an enemy [gold]Forges[/gold] [blue]{Amount}[/blue] to all players."
+  "YUM-THE_SQUAD_POWER.description": "Hitting an enemy with attacks [gold]Forges[/gold] [blue]1[/blue] to all players.",
+  "YUM-THE_SQUAD_POWER.smartDescription": "Hitting an enemy with attacks[gold]Forges[/gold] [blue]{Amount}[/blue] to all players.",
+
+  "YUM-DEMON_BLOOD_POWER.title": "Demonic delight",
+  "YUM-DEMON_BLOOD_POWER.description": "Damaging an enemy gives [blue]1[/blue] strength.",
+  "YUM-DEMON_BLOOD_POWER.smartDescription": "Damaging an enemy gives [blue]{Amount}[/blue] strength.",
+
+  "YUM-NECROFICATION_POWER.title": "Necroficated",
+  "YUM-NECROFICATION_POWER.description": "Temporarily immune to any source of HP loss. Then dies.",
+  "YUM-NECROFICATION_POWER.smartDescription": "Immune to HP loss for [blue]{Amount}[/blue] {Amount:plural:turn|turns}, then dies."
 }

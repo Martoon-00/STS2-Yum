@@ -27,8 +27,8 @@ public sealed class TheSquadPower : CustomPowerModel
             return;
         }
 
-        var hits = command.Results.Aggregate(0, (acc, singleHitResult) => acc + singleHitResult.Count());
-        IEnumerable<Player> players = CombatState.Players.Where((Player p) => p.Creature.IsAlive);
+        var hits = command.Results.Aggregate(0, (acc, singleHitResult) => acc + singleHitResult.Count);
+        IEnumerable<Player> players = CombatState.Players.Where(p => p.Creature.IsAlive);
         foreach (Player player in players)
         {
             await ForgeCmd.Forge(hits * Amount, player, this);

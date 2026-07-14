@@ -1,5 +1,13 @@
 {
   "YUM-THE_SQUAD_POWER.title": "Дружинная сила",
   "YUM-THE_SQUAD_POWER.description": "Попадания атаками по врагу [gold]закаляют[/gold] [blue]1[/blue] всем игрокам.",
-  "YUM-THE_SQUAD_POWER.smartDescription": "Попадания атаками по врагу [gold]закаляют[/gold] [blue]{Amount}[/blue] всем игрокам."
+  "YUM-THE_SQUAD_POWER.smartDescription": "Попадания атаками по врагу [gold]закаляют[/gold] [blue]{Amount}[/blue] всем игрокам.",
+
+  "YUM-DEMON_BLOOD_POWER.title": "Демоническое упоение",
+  "YUM-DEMON_BLOOD_POWER.description": "Каждое нанесение урона врагу даёт [blue]1[/blue] силы.",
+  "YUM-DEMON_BLOOD_POWER.smartDescription": "Нанасение урона по врагу даёт [blue]{Amount}[/blue] силы.",
+
+  "YUM-NECROFICATION_POWER.title": "Некрофицирован",
+  "YUM-NECROFICATION_POWER.description": "Временно невосприимчив ко всем источникам потери ОЗ. Затем умирает.",
+  "YUM-NECROFICATION_POWER.smartDescription": "Невосприимчив к потере ОЗ ещё [blue]{Amount}[/blue] {Amount:plural(ru):ход|хода|ходов}, затем умирает."
 }

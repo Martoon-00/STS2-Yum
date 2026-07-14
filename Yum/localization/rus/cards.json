@@ -3,5 +3,11 @@
   "YUM-KILL.description": "Наносит {Damage:diff()} урона {Burn:diff()} раз.",
   
   "YUM-THE_SQUAD.title": "Дружина",
-  "YUM-THE_SQUAD.description": "Все [gold]закаляют[/gold] [blue]1[/blue] при каждом попадании атакой по врагу."
+  "YUM-THE_SQUAD.description": "Все [gold]закаляют[/gold] 1 при каждом попадании атакой по врагу.",
+
+  "YUM-DEMON_BLOOD.title": "Демоническая кровь",
+  "YUM-DEMON_BLOOD.description": "Каждый игрок получает\n[gold]Зов крови[/gold].",
+
+  "YUM-THE_CALL_OF_BLOOD.title": "Зов крови",
+  "YUM-THE_CALL_OF_BLOOD.description": "При каждом попадании по врагу получите 1 [gold]Силы[/gold]. Вы теряете {HpLoss:diff()} ОЗ в начале своего хода."
 }
