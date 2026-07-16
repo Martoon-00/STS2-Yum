@@ -9,5 +9,9 @@
 
   "YUM-NECROFICATION_POWER.title": "Некрофицирован",
   "YUM-NECROFICATION_POWER.description": "Временно невосприимчив ко всем источникам потери ОЗ. Затем умирает.",
-  "YUM-NECROFICATION_POWER.smartDescription": "Невосприимчив к потере ОЗ ещё [blue]{Amount}[/blue] {Amount:plural(ru):ход|хода|ходов}, затем умирает."
+  "YUM-NECROFICATION_POWER.smartDescription": "Невосприимчив к потере ОЗ ещё [blue]{Amount}[/blue] {Amount:plural(ru):ход|хода|ходов}, затем умирает.",
+
+  "YUM-PUNISHING_HAND_POWER.title": "Карающая длань",
+  "YUM-PUNISHING_HAND_POWER.description": "Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически.",
+  "YUM-PUNISHING_HAND_POWER.smartDescription": "Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически."
 }

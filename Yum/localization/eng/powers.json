@@ -9,5 +9,9 @@
 
   "YUM-NECROFICATION_POWER.title": "Necroficated",
   "YUM-NECROFICATION_POWER.description": "Temporarily immune to any source of HP loss. Then dies.",
-  "YUM-NECROFICATION_POWER.smartDescription": "Immune to HP loss for [blue]{Amount}[/blue] {Amount:plural:turn|turns}, then dies."
+  "YUM-NECROFICATION_POWER.smartDescription": "Immune to HP loss for [blue]{Amount}[/blue] {Amount:plural:turn|turns}, then dies.",
+
+  "YUM-PUNISHING_HAND_POWER.title": "Punishing hand",
+  "YUM-PUNISHING_HAND_POWER.description": "At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically.",
+  "YUM-PUNISHING_HAND_POWER.smartDescription": "At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically."
 }

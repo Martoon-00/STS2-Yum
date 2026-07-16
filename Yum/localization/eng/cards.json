@@ -9,5 +9,12 @@
   "YUM-DEMON_BLOOD.description": "Every player gains\n[gold]The call of blood[/gold].",
 
   "YUM-THE_CALL_OF_BLOOD.title": "The call of blood",
-  "YUM-THE_CALL_OF_BLOOD.description": "On every hit to an enemy gain 1 [gold]Strength[/gold]. Lose {HpLoss:diff()} HP at the start of your turn."
+  "YUM-THE_CALL_OF_BLOOD.description": "On every hit to an enemy gain 1 [gold]Strength[/gold]. Lose {HpLoss:diff()} HP at the start of your turn.",
+
+  "YUM-PUNISHING_HAND.title": "Punishing hand",
+  "YUM-PUNISHING_HAND.description": "[gold]Forge[/gold] {Forge:diff()}. At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically.",
+
+  "YUM-GLIMPSE_FROM_ABOVE.title": "Glimpse from above",
+  "YUM-GLIMPSE_FROM_ABOVE.description": "Gain {Block:diff()} [gold]Block[/gold].\nPut 1 card from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].\nAt the start of your next turn, draw [blue]1[/blue] additional card.",
+  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile."
 }

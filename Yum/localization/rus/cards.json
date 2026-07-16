@@ -9,5 +9,12 @@
   "YUM-DEMON_BLOOD.description": "Каждый игрок получает\n[gold]Зов крови[/gold].",
 
   "YUM-THE_CALL_OF_BLOOD.title": "Зов крови",
-  "YUM-THE_CALL_OF_BLOOD.description": "При каждом попадании по врагу получите 1 [gold]Силы[/gold]. Вы теряете {HpLoss:diff()} ОЗ в начале своего хода."
+  "YUM-THE_CALL_OF_BLOOD.description": "При каждом попадании по врагу получите 1 [gold]Силы[/gold]. Вы теряете {HpLoss:diff()} ОЗ в начале своего хода.",
+
+  "YUM-PUNISHING_HAND.title": "Карающая длань",
+  "YUM-PUNISHING_HAND.description": "[gold]Закаляет[/gold] {Forge:diff()}. Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически.",
+
+  "YUM-GLIMPSE_FROM_ABOVE.title": "Взгляд свысока",
+  "YUM-GLIMPSE_FROM_ABOVE.description": "Дает {Block:diff()} [gold]защиты[/gold].\nВы кладете выбранную карту из [gold]руки[/gold] наверх [gold]стопки добора[/gold].\nВы доберете [blue]1[/blue] дополнительную карту в начале следующего хода.",
+  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Выберите карту, которую хотите положить наверх стопки добора."
 }
