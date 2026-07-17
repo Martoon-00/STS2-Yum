@@ -12,12 +12,19 @@
   "YUM-THE_CALL_OF_BLOOD.description": "При каждом попадании по врагу получите 1 [gold]Силы[/gold]. Вы теряете {HpLoss:diff()} ОЗ в начале своего хода.",
 
   "YUM-PUNISHING_HAND.title": "Карающая длань",
-  "YUM-PUNISHING_HAND.description": "[gold]Закаляет[/gold] {Forge:diff()}. Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически.",
+  "YUM-PUNISHING_HAND.description": "[gold]Закаляет[/gold] {Forge:diff()}. [gold]Клинок монарха[/gold] разыгрывается если в конце хода находится на верху [gold]стопки добора[/gold].",
 
   "YUM-GLIMPSE_FROM_ABOVE.title": "Взгляд свысока",
   "YUM-GLIMPSE_FROM_ABOVE.description": "Дает {Block:diff()} [gold]защиты[/gold].\nВы кладете выбранную карту из [gold]руки[/gold] наверх [gold]стопки добора[/gold].\nВы доберете [blue]1[/blue] дополнительную карту в начале следующего хода.",
-  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Выберите карту, которую хотите положить наверх стопки добора.",
+  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Выберите карту, которую хотите положить на верх стопки добора.",
 
   "YUM-HEAVY_WOUNDS.title": "Тяжёлые ранения",
-  "YUM-HEAVY_WOUNDS.description": "[gold]Закаляет[/gold] {Forge:diff()}. Враги, пораженные [gold]Клинком монарха[/gold], получают на {DamageIncrease:diff()}% больше урона от атак в течение 2 ходов."
+  "YUM-HEAVY_WOUNDS.description": "[gold]Закаляет[/gold] {Forge:diff()}. Враги, пораженные [gold]Клинком монарха[/gold], получают на {DamageIncrease:diff()}% больше урона от атак в течение 2 ходов.",
+
+  "YUM-DEATH_INTENTION.title": "Предсмертная воля",
+  "YUM-DEATH_INTENTION.description": "[gold]Истощите[/gold] выбранную карту [gold]Силы[/gold]. Создайте [gold]Эхо смерти[/gold], стоящее на 1 больше, чем истощённая карта.",
+  "YUM-DEATH_INTENTION.selectionScreenPrompt": "Выберите карту Силы для истощения.",
+
+  "YUM-DEATH_INTENTION_TOKEN.title": "Эхо смерти",
+  "YUM-DEATH_INTENTION_TOKEN.description": "Добавьте копию карты [gold]{CardName}[/gold] в руку всех остальных игроков. Копии бесплатны и [gold]Эфемерны[/gold]."
 }

@@ -12,12 +12,19 @@
   "YUM-THE_CALL_OF_BLOOD.description": "On every hit to an enemy gain 1 [gold]Strength[/gold]. Lose {HpLoss:diff()} HP at the start of your turn.",
 
   "YUM-PUNISHING_HAND.title": "Punishing hand",
-  "YUM-PUNISHING_HAND.description": "[gold]Forge[/gold] {Forge:diff()}. At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically.",
+  "YUM-PUNISHING_HAND.description": "[gold]Forge[/gold] {Forge:diff()}. [gold]Sovereign Blade[/gold] is played if it is on top of [gold]draw pile[/gold] at the end of turn.",
 
   "YUM-GLIMPSE_FROM_ABOVE.title": "Glimpse from above",
   "YUM-GLIMPSE_FROM_ABOVE.description": "Gain {Block:diff()} [gold]Block[/gold].\nPut 1 card from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].\nAt the start of your next turn, draw [blue]1[/blue] additional card.",
   "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
 
   "YUM-HEAVY_WOUNDS.title": "Heavy wounds",
-  "YUM-HEAVY_WOUNDS.description": "[gold]Forge[/gold] {Forge:diff()}. Enemies hit by [gold]Sovereign Blade[/gold] receive {DamageIncrease:diff()}% more damage from attacks for 2 turns."
+  "YUM-HEAVY_WOUNDS.description": "[gold]Forge[/gold] {Forge:diff()}. Enemies hit by [gold]Sovereign Blade[/gold] receive {DamageIncrease:diff()}% more damage from attacks for 2 turns.",
+
+  "YUM-DEATH_INTENTION.title": "Death intention",
+  "YUM-DEATH_INTENTION.description": "[gold]Exhaust[/gold] a chosen [gold]Power[/gold] card. Create [gold]Death's echo[/gold], costing 1 more than the exhausted card.",
+  "YUM-DEATH_INTENTION.selectionScreenPrompt": "Choose a Power card to exhaust.",
+
+  "YUM-DEATH_INTENTION_TOKEN.title": "Death's echo",
+  "YUM-DEATH_INTENTION_TOKEN.description": "Add a copy of [gold]{CardName}[/gold] to the Hand of all other players. The copies are free and [gold]Ethereal[/gold]."
 }
