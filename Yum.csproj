@@ -12,7 +12,10 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <NoWarn>$(NoWarn);MSB3270</NoWarn>
+        <!-- MSB3270: mods are ideally built for all platforms (MSIL) while the local StS2 install is platform-specific.
+             CS9057: Alchyr.Sts2.ModAnalyzers' analyzer targets a newer Roslyn than the locally installed SDK ships;
+             harmless version-mismatch warning, no older analyzer build is available to pin instead. -->
+        <NoWarn>$(NoWarn);MSB3270;CS9057</NoWarn>
     </PropertyGroup>
 
     <ItemGroup Condition="Exists('$(Sts2DataDir)')" >

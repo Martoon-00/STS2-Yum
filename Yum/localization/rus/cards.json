@@ -21,10 +21,10 @@
   "YUM-HEAVY_WOUNDS.title": "Тяжёлые ранения",
   "YUM-HEAVY_WOUNDS.description": "[gold]Закаляет[/gold] {Forge:diff()}. Враги, пораженные [gold]Клинком монарха[/gold], получают на {DamageIncrease:diff()}% больше урона от атак в течение 2 ходов.",
 
-  "YUM-DEATH_INTENTION.title": "Предсмертная воля",
-  "YUM-DEATH_INTENTION.description": "[gold]Истощите[/gold] выбранную карту [gold]Силы[/gold]. Создайте [gold]Эхо смерти[/gold], стоящее на 1 больше, чем истощённая карта.",
+  "YUM-DEATH_INTENTION.title": "Намерение смерти",
+  "YUM-DEATH_INTENTION.description": "[gold]Преобразует[/gold] выбранный Талант в карту, стоящую на 2 {energyPrefix:energyIcons(1)} больше и дающую [gold]эфирную[/gold] бесплатную копию исходной карты ВСЕМ игрокам.",
   "YUM-DEATH_INTENTION.selectionScreenPrompt": "Выберите карту Силы для истощения.",
 
-  "YUM-DEATH_INTENTION_TOKEN.title": "Эхо смерти",
-  "YUM-DEATH_INTENTION_TOKEN.description": "Добавьте копию карты [gold]{CardName}[/gold] в руку всех остальных игроков. Копии бесплатны и [gold]Эфемерны[/gold]."
+  "YUM-POWER_UNLEASH.title": "Высвобождение силы",
+  "YUM-POWER_UNLEASH.description": "Добавляет [gold]Эфирную[/gold] бесплатную копию карты [gold]{CardName}[/gold] всем игрокам."
 }

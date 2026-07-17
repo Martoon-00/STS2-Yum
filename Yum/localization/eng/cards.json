@@ -22,9 +22,9 @@
   "YUM-HEAVY_WOUNDS.description": "[gold]Forge[/gold] {Forge:diff()}. Enemies hit by [gold]Sovereign Blade[/gold] receive {DamageIncrease:diff()}% more damage from attacks for 2 turns.",
 
   "YUM-DEATH_INTENTION.title": "Death intention",
-  "YUM-DEATH_INTENTION.description": "[gold]Exhaust[/gold] a chosen [gold]Power[/gold] card. Create [gold]Death's echo[/gold], costing 1 more than the exhausted card.",
-  "YUM-DEATH_INTENTION.selectionScreenPrompt": "Choose a Power card to exhaust.",
+  "YUM-DEATH_INTENTION.description": "[gold]Transform[/gold] a chosen [gold]Power[/gold] card into a card, costing 2 {energyPrefix:energyIcons(1)} more and giving an [gold]Ethereal[/gold] free copy of the original card to ALL players.",
+  "YUM-DEATH_INTENTION.selectionScreenPrompt": "Choose a Power card to transform.",
 
-  "YUM-DEATH_INTENTION_TOKEN.title": "Death's echo",
-  "YUM-DEATH_INTENTION_TOKEN.description": "Add a copy of [gold]{CardName}[/gold] to the Hand of all other players. The copies are free and [gold]Ethereal[/gold]."
+  "YUM-POWER_UNLEASH.title": "Power unleash",
+  "YUM-POWER_UNLEASH.description": "Add a [gold]Ethereal[/gold] free copy of [gold]{CardName}[/gold] to all players."
 }
