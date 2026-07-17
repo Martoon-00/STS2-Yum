@@ -1,6 +1,12 @@
+using BaseLib.Patches.Localization;
 using Godot;
 using HarmonyLib;
+using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Modding;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Cards;
+using Yum.YumCode.Powers;
 
 namespace Yum.YumCode;
 
@@ -17,5 +23,15 @@ public partial class MainFile : Node
         Harmony harmony = new(ModId);
 
         harmony.PatchAll();
+
+        DescriptionOverrides.CustomizeDescriptionPost += (CardModel card, Creature? target, ref string description) =>
+        {
+            if (card is SovereignBlade && card.Owner != null && card.Owner.Creature.HasPower<SharpBladePower>())
+            {
+                LocString suffix = new("powers", "YUM-SHARP_BLADE_POWER.sovereignBladeSuffix");
+                suffix.Add("DamageIncrease", card.Owner.Creature.GetPowerAmount<SharpBladePower>() * 10m);
+                description += suffix.GetFormattedText();
+            }
+        };
     }
 }

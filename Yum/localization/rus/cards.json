@@ -16,5 +16,8 @@
 
   "YUM-GLIMPSE_FROM_ABOVE.title": "Взгляд свысока",
   "YUM-GLIMPSE_FROM_ABOVE.description": "Дает {Block:diff()} [gold]защиты[/gold].\nВы кладете выбранную карту из [gold]руки[/gold] наверх [gold]стопки добора[/gold].\nВы доберете [blue]1[/blue] дополнительную карту в начале следующего хода.",
-  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Выберите карту, которую хотите положить наверх стопки добора."
+  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Выберите карту, которую хотите положить наверх стопки добора.",
+
+  "YUM-HEAVY_WOUNDS.title": "Тяжёлые ранения",
+  "YUM-HEAVY_WOUNDS.description": "[gold]Закаляет[/gold] {Forge:diff()}. Враги, пораженные [gold]Клинком монарха[/gold], получают на {DamageIncrease:diff()}% больше урона от атак в течение 2 ходов."
 }

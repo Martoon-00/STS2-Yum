@@ -13,5 +13,14 @@
 
   "YUM-PUNISHING_HAND_POWER.title": "Punishing hand",
   "YUM-PUNISHING_HAND_POWER.description": "At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically.",
-  "YUM-PUNISHING_HAND_POWER.smartDescription": "At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically."
+  "YUM-PUNISHING_HAND_POWER.smartDescription": "At the end of your turn, if [gold]Sovereign Blade[/gold] is on top of your draw pile, play it automatically.",
+
+  "YUM-SHARP_BLADE_POWER.title": "Sharp blade",
+  "YUM-SHARP_BLADE_POWER.description": "Enemies hit by [gold]Sovereign Blade[/gold] take [blue]10%[/blue] more damage from attacks per stack of this power, for 2 turns.",
+  "YUM-SHARP_BLADE_POWER.smartDescription": "Enemies hit by [gold]Sovereign Blade[/gold] take [blue]{Amount}0%[/blue] more damage from attacks, for 2 turns.",
+  "YUM-SHARP_BLADE_POWER.sovereignBladeSuffix": "\nApplies [gold]Heavy wounds[/gold] [blue]{DamageIncrease}%[/blue].",
+
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.title": "Heavy wounds",
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.description": "Takes more damage from attacks for 2 turns.",
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.smartDescription": "Takes [blue]{DamageIncrease}%[/blue] more damage from attacks for [blue]{Amount}[/blue] more {Amount:plural:turn|turns}."
 }

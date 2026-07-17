@@ -13,5 +13,14 @@
 
   "YUM-PUNISHING_HAND_POWER.title": "Карающая длань",
   "YUM-PUNISHING_HAND_POWER.description": "Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически.",
-  "YUM-PUNISHING_HAND_POWER.smartDescription": "Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически."
+  "YUM-PUNISHING_HAND_POWER.smartDescription": "Если в конце вашего хода [gold]Клинок монарха[/gold] находится наверху стопки добора, разыграйте его автоматически.",
+
+  "YUM-SHARP_BLADE_POWER.title": "Острый клинок",
+  "YUM-SHARP_BLADE_POWER.description": "Враги, поражённые [gold]Клинком монарха[/gold], получают больше урона от атак на 2 хода.",
+  "YUM-SHARP_BLADE_POWER.smartDescription": "Враги, поражённые [gold]Клинком монарха[/gold], получают на [blue]{Amount}0%[/blue] больше урона от атак в течении 2 ходов.",
+  "YUM-SHARP_BLADE_POWER.sovereignBladeSuffix": "\n[gold]Тяжёлые ранения[/gold] [blue]{DamageIncrease}%[/blue].",
+
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.title": "Тяжёлые ранения",
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.description": "Получает больше урона от атак в течение 2 ходов.",
+  "YUM-HEAVY_WOUNDS_DEBUFF_POWER.smartDescription": "Получает на [blue]{DamageIncrease}%[/blue] больше урона от атак ещё [blue]{Amount}[/blue] {Amount:plural(ru):ход|хода|ходов}."
 }

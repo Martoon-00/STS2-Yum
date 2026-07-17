@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0hu1ixyn1r4c"
-path="res://.godot/imported/punishing_hand.png-1cedf27ada8082ddad3bfdf4565a0311.ctex"
+uid="uid://o8frwgk3am0p"
+path="res://.godot/imported/heavy_wounds.png-320d7ecce3c983514d28b5ff071c8c7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Yum/images/card_portraits/punishing_hand.png"
-dest_files=["res://.godot/imported/punishing_hand.png-1cedf27ada8082ddad3bfdf4565a0311.ctex"]
+source_file="res://Yum/images/card_portraits/heavy_wounds.png"
+dest_files=["res://.godot/imported/heavy_wounds.png-320d7ecce3c983514d28b5ff071c8c7c.ctex"]
 
 [params]
 

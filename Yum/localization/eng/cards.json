@@ -16,5 +16,8 @@
 
   "YUM-GLIMPSE_FROM_ABOVE.title": "Glimpse from above",
   "YUM-GLIMPSE_FROM_ABOVE.description": "Gain {Block:diff()} [gold]Block[/gold].\nPut 1 card from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].\nAt the start of your next turn, draw [blue]1[/blue] additional card.",
-  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile."
+  "YUM-GLIMPSE_FROM_ABOVE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
+
+  "YUM-HEAVY_WOUNDS.title": "Heavy wounds",
+  "YUM-HEAVY_WOUNDS.description": "[gold]Forge[/gold] {Forge:diff()}. Enemies hit by [gold]Sovereign Blade[/gold] receive {DamageIncrease:diff()}% more damage from attacks for 2 turns."
 }
